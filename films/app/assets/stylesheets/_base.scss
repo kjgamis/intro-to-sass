@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: inherit;
+  font-family: $font-family-source;
+  font-size: 20px;
+  line-height: 1.35;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-family-oswald;
+  // font-weight: 700;
+  line-height: 1.1;
+}
+
+img {
+  max-width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
+article {
+  width: 75%;
+  margin: 1rem auto 3rem;
+}
+
+article > header {
+  overflow: auto;
+}
+
+.home {
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
